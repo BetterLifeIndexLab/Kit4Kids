@@ -5,6 +5,7 @@
 	width: 100%;
     display: flex;
 }
+
 img{
 	width:25%;
 	height:25%;
@@ -15,6 +16,12 @@ img{
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+#linkBLI{
+	font-family: BerninoSans-Regular;
+	font-size: 18px;
+	color: #464646;
 }
 
   .nav-meta{margin-right:10px;margin-bottom:20px;font-size:13px;line-height:20px;position:absolute;top:0;right:0}
@@ -38,8 +45,27 @@ a {
 .nav-meta__language.expanded .current a{font-weight:700}
 }
 
+
+#title{
+	flex-grow: 1;
+  	flex-basis: 75%;
+}
+
+#firstband{
+	width:100%;
+	float:left;
+}
+
+#secondband{
+	width:100%;
+	float:left; 
+	clear: left;
+
+}
+
 #translation{	
 	float:right;
+	margin:10px;
 	padding:10px;
 	font-family: BerninoSans-Regular;
 	font-weight:700;
@@ -49,43 +75,41 @@ a {
 
 #bliwebsite{
 	float:right;
-	margin-top:20px;
+	margin-top:35px;
+	margin-bottom: :10px;
 	padding:10px;
 	font-family: BerninoSans-Regular;
 	font-weight:300;
-	font-size: 12px;
+	font-size: 14px;
 	color: #ffffff;
 
 }
 
 #contactus{
 	float:right;
-	margin-top:20px;
+	margin-top:35px;
+	margin-bottom: :10px;
 	padding:10px;
 	font-family: BerninoSans-Regular;
 	font-weight:300;
-	font-size: 12px;
+	font-size: 14px;
 	color: #ffffff;
 
 }
 
-#title{
-	flex-grow: 1;
-  	flex-basis: 75%;
-}
-
 h1{
 	font-family: BerniniSans-Italic;
-	font-size: 40px;
+	font-size: 3.2vw;
 	color: #FFFFFF;
 	text-align:center;
-	margin-top: 10%;
+	margin-top: 2.5%;
 	margin-bottom: 2%;
 	letter-spacing: 0;
 }
 button{
 	margin:auto;
   	display:block;
+  	margin-bottom: 1.5%;
 	background-image: linear-gradient(-180deg, #D8D8D8 0%, #B3B3B3 100%);
 	border: 1px solid #979797;
 	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), inset 0 2px 0 0 #FFFFFF;
@@ -205,6 +229,10 @@ h2{
 		font-size: 12px;
 	}
 
+#linkBLI{
+		font-size: 12px;
+
+}
 
 	.number-box{
 		font-size: 18px;
