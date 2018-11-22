@@ -161,7 +161,7 @@ h2{
 
 .number-box{
 	text-align:center;
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-size: 24px;
 	font-weight: 900;
 
@@ -170,7 +170,7 @@ h2{
 	text-align:center;
 	margin-bottom: 10px;
 	margin-top:10px;
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-size: 18px;
 	font-weight: 700;
 
@@ -180,7 +180,7 @@ h2{
 	height:100px;
 	margin:auto;
 	text-align:center;
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-size: 18px;
 
 }
