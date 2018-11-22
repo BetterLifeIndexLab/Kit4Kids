@@ -19,7 +19,7 @@ a {
 }
 
 #linkBLI{
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial; 
 	font-size: 18px;
 	color: #464646;
 }
@@ -67,7 +67,7 @@ a {
 	float:right;
 	margin:10px;
 	padding:10px;
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-weight:700;
 	font-size: 12px;
 	color: #ffffff;
@@ -78,7 +78,7 @@ a {
 	margin-top:35px;
 	margin-bottom: :10px;
 	padding:10px;
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-weight:300;
 	font-size: 14px;
 	color: #ffffff;
@@ -90,7 +90,7 @@ a {
 	margin-top:35px;
 	margin-bottom: :10px;
 	padding:10px;
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-weight:300;
 	font-size: 14px;
 	color: #ffffff;
@@ -98,7 +98,8 @@ a {
 }
 
 h1{
-	font-family: BerniniSans-Italic;
+	font-family: BerniniSans-Italic,Arial;
+	font-style: italic;
 	font-size: 3.2vw;
 	color: #FFFFFF;
 	text-align:center;
@@ -127,14 +128,15 @@ button{
 	margin: auto;
 }
 h2{
-	font-family: CaeciliaLTStd-LightItalic;
+	font-family: CaeciliaLTStd-LightItalic,Arial;
+	font-style: italic;
 	font-size: 36px;
 	margin-top: 5%;
 	color: #464646;
 }
 
 .paragraph{
-	font-family: BerninoSans-Regular;
+	font-family: BerninoSans-Regular,Arial;
 	font-size: 18px;
 	color: #464646;
 	margin-top:5px;
